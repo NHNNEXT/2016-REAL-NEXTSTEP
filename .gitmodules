@@ -1,0 +1,8 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/NHNNEXT/2016-REAL-NEXTSTEP.git
+	branch = frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/NHNNEXT/2016-REAL-NEXTSTEP.git
+	branch = backend
