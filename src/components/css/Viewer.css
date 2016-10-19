@@ -1,0 +1,47 @@
+.lecture-issues-title {
+	margin-bottom: 10px;
+}
+.lecture-issues-title span {
+	width: 20px;
+	display: inline-block;
+}
+.lecture-issues {
+	margin-left: 20px;
+}
+.issue-card {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.issue-card .alert {
+	margin: 0;
+}
+.issue-card .progress-bar {
+	position: absolute;
+	left: 0;
+	top:0;
+	opacity: 0.3;
+	line-height: 40px;
+	text-align: right;
+}
+.issue-card .progress-bar span {
+	color: rgba(0, 0, 0, 0.8);
+	margin-right: 10px;
+}
+
+.issue-card.dragmove {
+	overflow: visible;
+}
+.issue-card.dragmove .lecture-issue{
+	transform: rotate(5deg);
+}
+.issue-card.placeholder {
+    background-color: rgba(0,0,0,.2);
+    border-color: transparent;
+    box-shadow: none;
+    border-radius: 3px;
+}
+.issue-card.placeholder .lecture-issue {
+	position: fixed;
+	visibility: hidden;
+}

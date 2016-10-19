@@ -1,0 +1,56 @@
+.professor-header {
+	background: #EDEFF0;
+	height: 200px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.professor-header .profile-image {
+	display: block;
+	background: #D6DADC;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 70px;
+	color: #777;
+}
+.professor-header .professor-name {
+	font-size: 30px;
+	font-weight: bold;
+}
+.professor-content {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.professor-content .lecture-card {
+	width: 200px;
+}
+
+
+.lecture-card-add a{
+	background: #D6DADC;
+	color: #777;
+	line-height: 60px;
+	text-align: center;
+}
+.lecture-card-add a:hover {
+	background: #D5DADC;
+	color: black;	
+}
+
+.lecture-card-add-dialog {
+	top:-100px;
+}
+
+.lecture-card-add-dialog  h4{
+	text-align: center;
+	font-size: 18px;
+}
+
+.lecture-card-add-dialog .modal-footer {
+	text-align:left;
+}

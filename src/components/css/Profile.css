@@ -1,0 +1,53 @@
+.header-profile {
+	position: absolute;
+	right: 10px;
+	top:0px;
+	color: black;
+}
+.header-btn {
+	margin: 0;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	padding: 5px 8px;
+
+}
+.header-btn img {
+	border-radius: 3px;
+	border:2px solid white;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.header-profile .modal-content {
+	border-radius: 3px;
+}
+.header-profile .profile-dialog {
+	position: absolute;
+	right: 0;
+	margin: 0;
+	top: 100%;
+}
+.header-profile .modal-header {
+	padding: 5px 15px;	
+}
+.header-profile .list-group {
+	margin-bottom: 0;
+}
+.header-profile .modal-body {
+	padding: 5px;
+}
+.list-group li.list-group-item{
+	text-align: left;
+	padding: 0;
+	border: 0;
+	padding-left: 10px;
+}
+.list-group li.list-group-item.last{
+	border-top: 1px solid #ddd;
+}
+.list-group li.list-group-item:hover {
+	background: #eee;
+}

@@ -1,0 +1,104 @@
+body.pdf-open {
+	 background: #3F3F3F;
+}
+.pdf-wrapper {
+/* 	padding: 10px; */
+}
+.pdf-page {
+	position: relative;
+	margin: 10px auto;
+	border: 1px solid black;
+	
+}
+.text-layer {
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.text-layer>div {
+
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+
+.pdf-comments-wrapper {
+	right: 0;
+	position: fixed;
+	top: 0px;
+	width: 300px;
+	height: 100%;
+	background: #383838;
+	border-left: 1px solid #2f2f2f;
+
+}
+.pdf-comments {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 50px 10px 240px;
+    position: absolute;
+}
+.pdf-comment {
+	margin: 5px 0px;
+	padding: 5px;
+	background: #333;
+	min-height: 50px;
+}
+.pdf-comment {
+		color: white;
+}
+.pdf-comment-form {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background: inherit;
+	padding: 0px 10px 10px;
+}
+.comment-input {
+/* 	margin-bottom: 10px; */
+}
+
+.comment-submit {
+	margin-top: 10px;
+}
+.pdf-btn-wrapper {
+	position: fixed;
+}
+.btn.pdf-btn {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px;
+}
+.pdf-comments-wrapper .editor-toolbar {
+/* 	opacity: 1; */
+	background: #fff;
+	
+}
+.pdf-comments-wrapper .editor-toolbar a {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.pdf-comments-wrapper .editor-toolbar a:before {
+	line-height: 20px;
+}
+.pdf-comments-wrapper .CodeMirror{
+    height: 100px;
+    min-height: 100px;
+}
+.pdf-comments-wrapper .CodeMirror-scroll {
+	min-height: 100px;
+}

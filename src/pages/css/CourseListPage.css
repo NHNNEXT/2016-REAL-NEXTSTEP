@@ -1,0 +1,94 @@
+.view-lecture {
+	background: #0079BF;	
+}
+.course-list-wrapper {
+/* 	margin-top: 50px; */
+}
+
+.lecture-header {
+	padding: 10px;
+}
+.lecture-header span, .lecture-header span a {
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 5px;
+	color: white;
+}
+.lecture-header-name {
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.lecture-header-professor {
+	font-size: 14px;
+}
+.lecture-header .lecture-header-status {
+	
+}
+
+
+.course-card {
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+	vertical-align: top;
+/* 	overflow: hidden; */
+}
+
+.course-card.dragmove .course-card-content {
+	transform: rotate(10deg);
+}
+.course-card.placeholder {
+    background-color: rgba(0,0,0,.2);
+    border-color: transparent;
+    box-shadow: none;
+    border-radius: 3px;
+}
+.course-card.placeholder .course-card-content {
+	position: fixed;
+	visibility: hidden;
+}
+.course-card .course-card-content {
+
+	padding: 10px;
+	background: #E2E4E6;
+	border-radius: 3px;
+	width: 300px;
+}
+.course-card .add-course-card-content {
+	padding: 10px;
+	background: #0068AD;
+	border-radius: 3px;
+	width: 300px;	
+}
+.course-card .add-course-card-content:hover {
+	background: #00538A;
+}
+.course-card h2 {
+	margin:0;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.course-card .course-card-content a {
+	color: black;
+}
+
+.course-card-issues li {
+	background: #fff;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin-bottom:  5px;
+}
+
+.course-add-controls input {
+	margin-bottom: 10px;
+}
+
+.course-add-controls .btn-success {
+	margin-right: 10px;
+}

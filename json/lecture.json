@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "name": "강의 이름",
+  "instructors": [
+    {
+      "id": 1,
+      "name": "교수 이름",
+      "avatar_url": "https://..."
+    }
+  ],
+  "courses": [
+		  {
+		    "title": '실프1-1',
+		    "id": 0,
+		    "issues":[
+		{"id": 0, "title" : "goal1"},
+		{"id": 1, "title" : "goal2"},
+		{"id": 2, "title" : "goal3"},
+]
+		  },
+		  {
+		    "title": '실프1-2',
+		    "id": 1,
+		    "issues":[
+		{"id": 0, "title" : "goal1"},
+		{"id": 1, "title" : "goal2"},
+		{"id": 2, "title" : "goal3"},
+]
+		  }
+		]
+}

@@ -1,0 +1,15 @@
+h3.professor-board-header-name {
+	font-size: 18px;	
+	vertical-align: middle;
+	line-height: 20px;
+	height: 20px;
+}
+
+h3.professor-board-header-name .glyphicon {
+	font-size: 16px;
+	vertical-align: middle;
+	color: #999;
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+

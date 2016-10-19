@@ -1,0 +1,18 @@
+{"course":{
+		"title":"실습1-1",
+		"lectureId": 0,
+		"id": 0,
+		"issues": [
+		{"id": 0, "title" : "goal1"},
+		{"id": 1, "title" : "goal2"},
+		{"id": 2, "title" : "goal3"}
+],
+	
+		"attachments": [
+		{"id": 0, "name" : "att1"},
+		{"id": 1, "name" : "att2"},
+		{"id": 2, "name" : "att3"}
+		]
+		
+	}
+}

@@ -1,0 +1,39 @@
+<html>
+<script src="./js/pdf.js"></script>
+<style>
+body {
+	 background: #3F3F3F;
+}
+.pdf-page {
+	position: relative;
+}
+.textLayer {
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.textLayer>div {
+
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+</style>
+<body>
+<div class="pdf-page">
+ <canvas class="canvasLayer" style="border:1px solid black;"></canvas>
+ <div class="textLayer">
+ </div>
+</div>
+</body>
+
+<script>
+
+</script>
+</html>

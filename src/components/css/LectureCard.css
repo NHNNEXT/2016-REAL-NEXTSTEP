@@ -1,0 +1,28 @@
+.lecture-card {
+	position: relative;
+}
+.lecture-card a {
+	background: #0064A7;
+	color: white;
+	display: block;
+	border-radius: 3px;
+	padding: 10px;
+	height: 80px;
+}
+
+.lecture-card a:hover {
+	background: #005994;
+}
+.lecture-card a:hover {
+	text-decoration: none;
+}
+.lecture-card p {
+	margin-bottom: 5px;
+}
+.lecture-card .lecture-title-name {
+	font-weight: bold;
+}
+.lecture-card .lecture-professor-name {
+	font-size: 13px;
+	color: #ddd;
+}

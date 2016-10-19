@@ -1,0 +1,19 @@
+{
+	"participants" : [
+		{
+        "id": 1,
+        "name": "이름",
+        "avatar_url": "https://..."
+      },
+      {
+        "id": 2,
+        "name": "이름2",
+        "avatar_url": "https://..."
+      },
+      {
+        "id": 3,
+        "name": "이름3",
+        "avatar_url": "https://..."
+      }
+	]
+}
