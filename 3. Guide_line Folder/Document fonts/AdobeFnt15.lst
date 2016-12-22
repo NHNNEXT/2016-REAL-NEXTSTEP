@@ -1,0 +1,49 @@
+%!Adobe-FontList 1.15
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AlteDIN1451Mittelschriftgepraegt
+FamilyName:Alte DIN 1451 Mittelschrift gepraegt
+StyleName:Regular
+MenuName:Alte DIN 1451 Mittelschrift gepraegt
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Alte DIN 1451 Mittelschrift gepraegt
+WritingScript:Roman
+OutlineFileName:\din1451alt G.ttf
+DataFormat:sfntData
+FileLength:65292
+FileModTime:1236380526
+NameArray:0,Mac,18,Alte DIN 1451 Mittelschrift gepraegt
+NameArray:0,Mac,4,Alte DIN 1451 Mittelschrift gepraegt
+NameArray:0,Win,1,Alte DIN 1451 Mittelschrift gepraegt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:184404
+FileModTime:1416554403
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

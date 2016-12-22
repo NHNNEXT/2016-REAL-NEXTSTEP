@@ -1,0 +1,428 @@
+<! Doctype html>
+<html>
+<head>
+<style>
+**************************************
+body_background 
+--------------------------------------
+
+.black_background {
+background-color:#2e302c;
+}
+
+.blue_background {
+background-color:#1b8bbf;
+}
+
+.orange_background {
+background-color:#d66a45;
+}
+
+.yellow_background {
+background-color:#e0c459;
+}
+
+.Red_background {
+background-color:#ab3432;
+}
+
+.green_background {
+background-color:#9cc146;
+}
+
+**************************************
+헤더 & footer
+--------------------------------------
+.defualt_header {
+background-color:#f2f2f2;
+color: white;
+}
+
+.black_header {
+background-color:#1b1b1d;
+color: white;
+}
+
+.blue_header {
+background-color:#085396;
+color: white;
+}
+
+.orange_header {
+background-color:#f17d33;
+color: white;
+}
+
+.yellow_header {
+background-color:#e8dc51;
+color: #272460;
+}
+
+.Red_header {
+background-color:#bd2132;
+color: white;
+}
+
+.green_header {
+background-color:#758c3f;
+color: white;
+}
+
+.defualt_footer {
+background-color:#f2f2f2;
+color: white;
+}
+
+.black_footer {
+background-color:#1b1b1d;
+color: white;
+}
+
+.blue_footer {
+background-color:#085396;
+color: white;
+}
+
+.orange_footer {
+background-color:#f17d33;
+color: white;
+}
+
+.yellow_footer {
+background-color:#e8dc51;
+color: #272460;
+}
+
+.Red_footer {
+background-color:#bd2132;
+color: white;
+}
+
+.green_footer {
+background-color:#758c3f;
+color: white;
+}
+
+
+**************************************
+프로필 화이트 백그라운드
+--------------------------------------
+.profile_white {
+background-color:white;
+box-shadow: 0px 0px 10px #cfcfce;
+}
+
+*************************************
+강의 PPT 회색 백그라운드
+_____________________________________
+
+.greybackground {
+background-color:#f2f2f2;
+box-shadow: 0px 0px 10px #cfcfce;
+border: 4 px;
+border-color: #e6e7e8;
+}
+
+*************************************
+강의 목록 카드 디자인 
+_____________________________________
+
+__+ 수강목록 +___
+ 
+.Coursecard {
+background-color: #f2f2f2;
+box-shadow: 0px 0px 10px #cfcfce;
+-webkit-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+border: 4 px;
+border-color: #e6e7e8;
+}
+__+ Course_page +___
+
+.Lecturecard {
+background-color: #f2f2f2; 
+box-shadow: 0px 0px 10px #cfcfce;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+border: 4 px;
+border-color: #e6e7e8;
+}
+
+__+ Cose_page_프로그레스_좌물쇠 열린div +__
+.Lecture progress {
+background-color : white;
+box-shadow: 0px 0px 10px #cfcfce;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+
+__+ Cose_page 좌물쇠걸린div +__
+.logout_lecture_card{
+background-color: #909295; 
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+border: 4 px;
+border-color: #e6e7e8;
+
+__+ Cose_page 추가하기div +__
+}
+.add_lecture card{
+background-color: transparent;
+-webkit-box-shadow: inset 0px 0px 30px 0px rgba(45, 50, 50, 0.75);
+-moz-box-shadow:    inset 0px 0px 30px 0px rgba(45, 50, 50, 0.75);
+box-shadow:         inset 0px 0px 30px 0px rgba(45, 50, 50, 0.75);
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+border: 4 px;
+border-color: #e6e7e8;
+}   
+
+__+ Cose_page_플그래서_좌물쇠 열린 div +__
+
+.logout_progresscard{
+ background-color: #909295;
+ -webkit-border-radius: 5px 5px 5px 5px;
+ 
+}    
+    
+**************************************
+--------------------------------------
+상단 네비게이션
+======================================
+**************************************
+
+-------------------------------------
+프로파일 설정 메뉴
+_____________________________________
+
+#bubble 
+{
+position: relative;
+width: 185px;
+height: 110px;
+padding: 0px;
+text-align: center;
+box-shadow: 0px 0px 10px #cfcfce;
+background: #f4f7f8;
+font-size: 20pt;
+color: #818285;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #7F7F7F solid 1px;
+}
+
+#bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 10px 10px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+top: -10px;
+left: 82px;
+}
+
+#bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 10px 10px;
+border-color: #7F7F7F transparent;
+display: block;
+width: 0;
+z-index: 0;
+top: -11px;
+left: 82px;
+}
+
+-------------------------------------
+프로파일 설정 테마 메뉴  
+_____________________________________
+
+#smallbubble 
+{
+position: relative;
+width: 95px;
+height: 135px;
+padding: 0px;
+background: #f4f7f8;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #e5e5e6 solid 1px;
+}
+
+#smallbubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 11px 16px;
+border-color: #f4f7f8 transparent;
+display: block;
+width: 0;
+z-index: 1;
+top: -16px;
+left: 36px;
+}
+
+#smallbubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 11px 16px;
+border-color: #e5e5e6 transparent;
+display: block;
+width: 0;
+z-index: 0;
+top: -17px;
+left: 36px;
+}
+
+**************************************
+--------------------------------------
+버튼 디자인
+======================================
+**************************************
+}
+.add_white {
+    background-color: transparent;
+    border: 4 px;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "NamumbarunGothicOTFbold";
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.add_white:hover {
+  background: black;
+  border: 4 px;
+  border-color: black;
+  color: white;
+}
+
+}
+.add_black {
+    background-color: transparent;
+    border: 4 px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: NamumbarunGothicOTFbold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.add_black:hover {
+  background: white;
+  border: 4 px;
+  border-color: white;
+  color: black;
+}
+
+.add_default {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: NamumbarunGothicOTFbold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: transparent;
+    border: 4 px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: NamumbarunGothicOTFbold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.login:hover {
+  background: white;
+  border: 4 px;
+  border-color: white;
+  color: black;
+}
+
+.button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: 2 px;
+    border-color: #2197d4;
+    border-radius: 5px;
+    color: #2197d4;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: NamumbarunGothicOTFbold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+button:hover {
+  background: #2197d4;
+  border-color: #2197d4;
+  color: white;
+}
+
+.download {
+    background-color: white;
+    background-repeat:no-repeat;
+    border: 2 px;
+    border-color: #d1d2d4;
+    border-radius: 5px;
+    color: #808284;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: NamumbarunGothicOTFbold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.download:hover {
+  background: #afafaf;
+  border-color: #afafaf;
+  color: white;
+}
+
+
+</style>
+</head>
+</html>
