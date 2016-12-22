@@ -1,5 +1,10 @@
 # 2016-REAL-NEXTSTEP
-2016년 3학기 웹 실전프로젝트
+2016년 3학기 웹 실전프로젝
+원본 디자인 소스는 
+https://www.dropbox.com/s/a0b2hfkcx4rs93w/1.Final%20files.zip?dl=0
+위 링크에서 다운로드 가능합니다.
+
+
 ![](https://github.com/Junnie-Jobs/ImageRepository/blob/master/RealProjectSlides/ver_07-1/%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84%20ver9_test.001.jpeg?raw=true)
 
 ![](https://github.com/Junnie-Jobs/ImageRepository/blob/master/RealProjectSlides/ver_04/%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84%20ver7/%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84%20ver7.002.jpeg?raw=true)
