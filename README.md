@@ -5,6 +5,7 @@
 #스펙  
 * frontend
   * React.js
+  * Redux
 * backend 
   * Spring boot
   * Spring Security
