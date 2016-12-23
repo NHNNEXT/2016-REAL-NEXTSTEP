@@ -11,8 +11,11 @@
   * Spring boot
   * Spring Security
   * Spring REST 
+* database
+  * MySQL
 
-frontend와 backend는 완전히 분리되어 개발되었으며, 각각의 소스코드는 브랜치를 통해 업데이트 됩니다.  두 영역은 각자 서버에서 배포되며, CORS를 통해 통신합니다.
+frontend와 backend는 완전히 분리되어 개발되었으며, 각각의 소스코드는 브랜치를 통해 업데이트 됩니다.  
+두 영역은 각자 서버에서 배포되며, CORS를 통해 통신합니다.
   
   
   
