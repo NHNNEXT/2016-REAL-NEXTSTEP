@@ -19,7 +19,7 @@ frontend와 backend는 완전히 분리되어 개발되었으며, 각각의 소�
 #브랜드  
 ![](https://github.com/NHNNEXT/2016-REAL-NEXTSTEP/blob/design-resources/Images/logo_type01.png?raw=true)    
   
-이 서비스의 이름인 NEXT STEP은 개발을 학습하는 모든 학생들의 NEXT STEP을 마련해준다는 목표를 가지고 있습니다.  그래서 브랜드 이미지는 교육적인 브랜드의 성격과 NEXT STEP이라는 단계를 표현하기 위해 책을 계단 모양으로 쌓아놓은 방식으로 표현되었습니다.
+이 서비스의 이름인 NEXT STEP은 개발을 학습하는 모든 학생들의 NEXT STEP을 마련해준다는 목표를 가지고 있습니다.  그래서 브랜드 이미지는 교육적인 브랜드의 성격과 NEXT STEP이라는 단계를 표현하기 위해 책을 계단 모양으로 쌓아놓은 방식으로 표현되었습니다.  
   
   
   
